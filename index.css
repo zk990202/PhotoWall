@@ -1,0 +1,40 @@
+.title {
+    margin:0 auto; 
+    width:320px; 
+    height:120px; 
+    border:1px solid rgb(39, 30, 30);
+    text-align: center
+}
+
+#p1{
+    cursor: pointer;
+}
+
+.photoArea {
+    margin:0 auto; 
+    text-align: center
+}
+
+.hiddenPhotoArea {
+    visibility: hidden;
+}
+
+.photo {
+    margin: 20px;
+    padding: 10px;
+    width:384px; 
+    height:216px; 
+}
+
+.photoBig {
+    margin: 0px;
+    padding: 0px;
+    width: 460.8px; 
+    height: 259.2px; 
+    cursor: pointer;
+}
+
+body {
+    background: url(storage/home.jpg);
+    background-size: cover
+}
